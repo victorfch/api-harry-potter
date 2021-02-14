@@ -1,0 +1,22 @@
+{
+  "name": "api-rest-express",
+  "version": "1.0.0",
+  "description": "Proyecto subir nota para DEW",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

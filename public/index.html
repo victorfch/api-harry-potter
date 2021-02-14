@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="shortcut icon" href=" ./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="./assets/js/index.js" defer></script>
+    <script src="./assets/js/pintado.js" defer></script>
+</head>
+
+<body>
+    <div class="notification is-success is-hidden"></div>
+    <div class="notification is-danger is-hidden"></div>
+    <div class="container mt-6">
+        <div class="is-pulled-right">
+            <button onclick="cerrarSesion()" class="button is-info">Cerrar sesión</button>
+            <button onclick="nuevoPersonaje()" class="button is-info">Nuevo</button>
+        </div>
+        <h1 class="title">Personajes</h1>
+        <hr>
+        <div class="columns is-multiline"></div>
+    </div>
+
+    <!--ModalFormularioPersonaje-->
+    <div id="modalForm" class="modal">
+        <div class="modal-background"></div>
+        <button onclick="toggleModalForm()" class="modal-close is-large" aria-label="close"></button>
+
+        <form id="formAdd">
+            <div class="modal-card">
+                <div class="modal-card-head">
+                    <p class="modal-card-title has-text-centered">Crear personaje</p>
+                </div>
+
+                <div class="modal-card-body pb-6">
+                    <input type="hidden" name="id">
+                    <div class="field">
+                        <label class="label">*Nombre:</label>
+                        <div class="control">
+                            <input class="input" name="nombre" type="text" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">*Especie:</label>
+                        <div class="control">
+                            <input class="input" name="especie" type="text" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Sexo:</label>
+                        <div class="control">
+                            <span class="select">
+                                <select name="sexo">
+                                    <option value="hombre">Hombre</option>
+                                    <option value="mujer">Mujer</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Patronus:</label>
+                        <div class="control">
+                            <input class="input" name="patronus" type="text">
+                        </div>
+                    </div>
+
+                    <hr class="has-background-grey-darker">
+                    <h1 class="title is-4">Varita</h1>
+                    <div class="field">
+                        <label class="label">Madera:</label>
+                        <div class="control">
+                            <input class="input" name="madera" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Núcleo:</label>
+                        <div class="control">
+                            <input class="input" name="nucleo" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Tamaño:</label>
+                        <div class="control">
+                            <input class="input" name="tamanho" min="0" type="number">
+                        </div>
+                    </div>
+                    <hr class="has-background-grey-darker">
+
+
+                    <div class="field">
+                        <label class="label">Color de ojos:</label>
+                        <div class="control">
+                            <input class="input" name="colorOjos" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Color del pelo:</label>
+                        <div class="control">
+                            <input class="input" name="colorPelo" type="text">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">Casa:</label>
+                        <div class="control">
+                            <span class="select">
+                                <select name="casa">
+                                    <option value="1">Gryffindor</option>
+                                    <option value="2">Slytherin</option>
+                                    <option value="3">Ravenclaw</option>
+                                    <option value="4">Hufflepuff</option>
+                                </select>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label">*Nombre del actor:</label>
+                        <div class="control">
+                            <input class="input" name="actor" type="text" required>
+                        </div>
+                    </div>
+                    <label class="checkbox">
+                        <input type="checkbox" name="vivo"> ¿Está vivo?
+                    </label>
+                    <br>
+                    <label class="checkbox">
+                        <input type="checkbox" name="estudianteHogwarts"> ¿Estudiante de Hogwarts?
+                    </label>
+                </div>
+
+                <footer class="modal-card-foot">
+                    <button class="button is-success"> Guardar </button>
+                </footer>
+            </div>
+        </form>
+    </div>
+
+    <div id="modalVer" class="modal"></div>
+</body>
+
+</html>

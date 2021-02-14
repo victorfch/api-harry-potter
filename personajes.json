@@ -1,0 +1,398 @@
+[
+    {
+        "id": 22,
+        "nombre": "Harry Potter",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "green",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "acebo",
+            "nucleo": "phoenix feather",
+            "tamanho": 11
+        },
+        "patronus": "deer",
+        "estudianteHogwarts": true,
+        "actor": "Daniel Radcliffe",
+        "vivo": true
+    },
+    {
+        "id": 21,
+        "nombre": "Hermione Granger",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 1,
+        "colorOjos": "brown",
+        "colorPelo": "brown",
+        "varita": {
+            "madera": "vine",
+            "nucleo": "dragon heartstring",
+            "tamanho": ""
+        },
+        "patronus": "otter",
+        "estudianteHogwarts": true,
+        "actor": "Emma Watson",
+        "vivo": true
+    },
+    {
+        "id": 20,
+        "nombre": "Ron Weasley",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "blue",
+        "colorPelo": "red",
+        "varita": {
+            "madera": "willow",
+            "nucleo": "unicorn tail-hair",
+            "tamanho": 14
+        },
+        "patronus": "Jack Russell terrier",
+        "estudianteHogwarts": true,
+        "actor": "Rupert Grint",
+        "vivo": true
+    },
+    {
+        "id": 19,
+        "nombre": "Draco Malfoy",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "grey",
+        "colorPelo": "blonde",
+        "varita": {
+            "madera": "hawthorn",
+            "nucleo": "unicorn tail-hair",
+            "tamanho": 10
+        },
+        "patronus": "",
+        "estudianteHogwarts": true,
+        "actor": "Tom Felton",
+        "vivo": true
+    },
+    {
+        "id": 18,
+        "nombre": "Minerva McGonagall",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 1,
+        "colorOjos": "",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "tabby cat",
+        "estudianteHogwarts": false,
+        "actor": "Dame Maggie Smith",
+        "vivo": true
+    },
+    {
+        "id": 17,
+        "nombre": "Cedric Diggory",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 4,
+        "colorOjos": "grey",
+        "colorPelo": "brown",
+        "varita": {
+            "madera": "ash",
+            "nucleo": "unicorn hair",
+            "tamanho": 12.25
+        },
+        "patronus": "",
+        "estudianteHogwarts": true,
+        "actor": "Robert Pattinson",
+        "vivo": false
+    },
+    {
+        "id": 16,
+        "nombre": "Cho Chang",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 3,
+        "colorOjos": "brown",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "swan",
+        "estudianteHogwarts": true,
+        "actor": "Katie Leung",
+        "vivo": true
+    },
+    {
+        "id": 15,
+        "nombre": "Severus Snape",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "black",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "doe",
+        "estudianteHogwarts": false,
+        "actor": "Alan Rickman",
+        "vivo": false
+    },
+    {
+        "id": 14,
+        "nombre": "Rubeus Hagrid",
+        "especie": "half-giant",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "black",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "oak",
+            "nucleo": "",
+            "tamanho": 16
+        },
+        "patronus": "",
+        "estudianteHogwarts": false,
+        "actor": "Robbie Coltrane",
+        "vivo": true
+    },
+    {
+        "id": 13,
+        "nombre": "Neville Longbottom",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "",
+        "colorPelo": "blonde",
+        "varita": {
+            "madera": "cherry",
+            "nucleo": "unicorn tail-hair",
+            "tamanho": 13
+        },
+        "patronus": "",
+        "estudianteHogwarts": true,
+        "actor": "Matthew Lewis",
+        "vivo": true
+    },
+    {
+        "id": 12,
+        "nombre": "Luna Lovegood",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 3,
+        "colorOjos": "grey",
+        "colorPelo": "blonde",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "hare",
+        "estudianteHogwarts": true,
+        "actor": "Evanna Lynch",
+        "vivo": true
+    },
+    {
+        "id": 11,
+        "nombre": "Ginny Weasley",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 1,
+        "colorOjos": "brown",
+        "colorPelo": "red",
+        "varita": {
+            "madera": "yew",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "horse",
+        "estudianteHogwarts": true,
+        "actor": "Bonnie Wright",
+        "vivo": true
+    },
+    {
+        "id": 10,
+        "nombre": "Sirius Black",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "grey",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "hare",
+        "estudianteHogwarts": false,
+        "actor": "Gary Oldman",
+        "vivo": false
+    },
+    {
+        "id": 9,
+        "nombre": "Remus Lupin",
+        "especie": "werewolf",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "green",
+        "colorPelo": "brown",
+        "varita": {
+            "madera": "cypress",
+            "nucleo": "unicorn tail-hair",
+            "tamanho": 10.25
+        },
+        "patronus": "wolf",
+        "estudianteHogwarts": false,
+        "actor": "David Thewlis",
+        "vivo": false
+    },
+    {
+        "id": 8,
+        "nombre": "Arthur Weasley",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 1,
+        "colorOjos": "blue",
+        "colorPelo": "red",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "weasel",
+        "estudianteHogwarts": false,
+        "actor": "Mark Williams",
+        "vivo": true
+    },
+    {
+        "id": 7,
+        "nombre": "Bellatrix Lestrange",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 2,
+        "colorOjos": "brown",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "walnut",
+            "nucleo": "dragon heartstring",
+            "tamanho": 12.75
+        },
+        "patronus": "",
+        "estudianteHogwarts": false,
+        "actor": "Helena Bonham Carter",
+        "vivo": false
+    },
+    {
+        "id": 6,
+        "nombre": "Lord Voldemort",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "red",
+        "colorPelo": "bald",
+        "varita": {
+            "madera": "yew",
+            "nucleo": "phoenix feather",
+            "tamanho": 13.5
+        },
+        "patronus": "",
+        "estudianteHogwarts": false,
+        "actor": "Ralph Fiennes",
+        "vivo": false
+    },
+    {
+        "id": 5,
+        "nombre": "Horace Slughorn",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "green",
+        "colorPelo": "blonde",
+        "varita": {
+            "madera": "cedar",
+            "nucleo": "dragon heartstring",
+            "tamanho": 10.25
+        },
+        "patronus": "",
+        "estudianteHogwarts": false,
+        "actor": "Jim Broadbent",
+        "vivo": true
+    },
+    {
+        "id": 4,
+        "nombre": "Dolores Umbridge",
+        "especie": "human",
+        "sexo": "mujer",
+        "casa": 2,
+        "colorOjos": "brown",
+        "colorPelo": "grey",
+        "varita": {
+            "madera": "birch",
+            "nucleo": "dragon heartstring",
+            "tamanho": 8
+        },
+        "patronus": "persian cat",
+        "estudianteHogwarts": false,
+        "actor": "Imelda Staunton",
+        "vivo": true
+    },
+    {
+        "id": 3,
+        "nombre": "Lucius Malfoy",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "grey",
+        "colorPelo": "blonde",
+        "varita": {
+            "madera": "elm",
+            "nucleo": "dragon heartstring",
+            "tamanho": 18
+        },
+        "patronus": "",
+        "estudianteHogwarts": false,
+        "actor": "Jason Isaacs",
+        "vivo": true
+    },
+    {
+        "id": 2,
+        "nombre": "Vincent Crabbe",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "black",
+        "colorPelo": "black",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "",
+        "estudianteHogwarts": true,
+        "actor": "Jamie Waylett",
+        "vivo": false
+    },
+    {
+        "id": 1,
+        "nombre": "Gregory Goyle",
+        "especie": "human",
+        "sexo": "hombre",
+        "casa": 2,
+        "colorOjos": "",
+        "colorPelo": "brown",
+        "varita": {
+            "madera": "",
+            "nucleo": "",
+            "tamanho": ""
+        },
+        "patronus": "",
+        "estudianteHogwarts": true,
+        "actor": "Josh Herdman",
+        "vivo": true
+    }
+]
